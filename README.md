@@ -26,4 +26,3 @@ Feel free to explore and customize the application to suit your needs!
 
 ---
 
-This markdown content provides a clear and concise description of the "Account Tosser" project, along with features, usage instructions, and example output. You can copy this into your `README.md` file. Let me know if you need any further adjustments! 😊
