@@ -23,6 +23,12 @@ Account Tosser is a simple web application that allows users to manage their acc
 ![Example Output](https://media.istockphoto.com/id/1354411899/photo/unrecognizable-man-uses-banking-app.jpg?s=1024x1024&w=is&k=20&c=6bmJGAXfW-EdsoLCbQidjhaJy0VpcH4YTsD6yxjML6U=)
 
 Feel free to explore and customize the application to suit your needs!
+## Clone the Repository
+
+To clone this repository, run the following command in your terminal:
+
+```bash
+git clone https://github.com/SakshamBharat/Account_Tosser.git
 
 ---
 
