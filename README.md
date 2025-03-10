@@ -1,6 +1,6 @@
 # Account Tosser
 
-![Account Management](https://media.istockphoto.com/id/1354411899/photo/unrecognizable-man-uses-banking-app.jpg?s=1024x1024&w=is&k=20&c=6bmJGAXfW-EdsoLCbQidjhaJy0VpcH4YTsD6yxjML6U=)
+![Account Management](https://miro.medium.com/v2/resize:fit:3804/format:webp/1*Pjml9-K_nkQxa0YrGZusNw.gif)
 
 Account Tosser is a simple web application that allows users to manage their account information effortlessly. With Account Tosser, you can easily input your name, username, and an image URL. The application will save and display this information on the index page.
 
