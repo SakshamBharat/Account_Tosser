@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account_Toss</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <h1>Read Accounts</h1>
+    <div class="con">
+        <% users.forEach((user)=>{ %>
+
+            <div class="reader">
+                <img src="<%= user.imgu %>" alt="" class="imgc">
+                <input readonly value="<%= user.name%>">
+                <input readonly value="<%= user.username %>">
+                <span>
+                    <a href="/delete/<%= user._id %>">Delete</a>
+                    <a href="/edit/<%= user._id %>">Edit</a>
+                    
+                    <button>Share</button>
+                </span>
+            </div>
+
+            <% }) %>
+
+    </div>
+    <footer class="ft">
+        <button class="btn">
+            <a href="/create">Create</a>
+        </button>
+    </footer>
+</body>
+
+</html>

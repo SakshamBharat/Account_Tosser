@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link rel="stylesheet" href="/styles/edit.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="/update/<%= users._id %>" method="post">
+            <label for="input1">Input 1:</label>
+            <input type="text" id="input1" name="name" value="<%= users.name %>">
+
+            <label for="input2">Input 2:</label>
+            <input type="text" id="input2" name="username" value="<%= users.username %>">
+
+            <label for="input3">Input 3:</label>
+            <input type="text" id="input3" name="imgu" value="<%= users.imgu %>">
+
+            <div class="button-container">
+                <a href="/">Back</a>
+                <input type="submit" value="Save">
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>

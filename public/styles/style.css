@@ -1,0 +1,65 @@
+body{
+    background: #000;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    
+   
+}
+#btn{
+    background: lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    
+}
+#btn:hover {
+    color: wheat;
+}
+.formsty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input_sty{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    font-size: 50px;
+
+}
+
+.lab_sty{
+    font-size: 50px;
+}
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+.reader{
+    border: 2px solid salmon;
+    height: 200px;
+    width: 200px;
+    background: red;  
+    margin: 0px 5px 5px 0px;
+    
+}
+.imgc {
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+    border-radius: 50%;
+}
+.ft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    position: absolute;
+    bottom: 100px;
+    width: 100px;
+    height: 50px;
+}
+
